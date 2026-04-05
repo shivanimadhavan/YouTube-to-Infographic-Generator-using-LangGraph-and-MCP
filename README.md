@@ -1,4 +1,4 @@
-# YouTube Video to Infographics
+# YouTube-to-Infographic Generator using LangGraph and MCP
 
 Convert a YouTube video into a clean infographic using an **LLM + LangGraph + MCP** pipeline.
 
