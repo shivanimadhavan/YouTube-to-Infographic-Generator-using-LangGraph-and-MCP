@@ -220,10 +220,11 @@ Using Poetry:
 poetry install
 ```
 
-### 3. Activate the environment
+### 3. Activate the virtual environment
 
 ```bash
-poetry shell
+python -m venv env
+.\env\Scripts\activate
 ```
 
 ---
@@ -233,7 +234,7 @@ poetry shell
 Run the application from the project root:
 
 ```bash
-poetry run python -m utube_to_infographics.main
+py main.py
 ```
 
 Then enter a YouTube URL when prompted.
